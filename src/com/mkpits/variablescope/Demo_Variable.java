@@ -9,6 +9,8 @@ public class Demo_Variable {
 		//hjkvhjsdddjvbjdvjds
 		int abee = 235;
 		System.out.println("abee: "+abee);
+		System.out.println("abee: "+abee);
+
 	}
 
 }
