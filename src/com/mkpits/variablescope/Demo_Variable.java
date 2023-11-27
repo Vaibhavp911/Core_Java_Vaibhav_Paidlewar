@@ -6,7 +6,7 @@ public class Demo_Variable {
 		// TODO Auto-generated method stub
 //ertrdhfjmezjgfnrydktdukxmfjsfdxtfycgvjhchgjfhszfdjgxcgj
 		//asvdsjvdbjhdjvjcjsdbsdvsdvhdidsv
-		
+		//hjkvhjsdddjvbjdvjds
 	}
 
 }
