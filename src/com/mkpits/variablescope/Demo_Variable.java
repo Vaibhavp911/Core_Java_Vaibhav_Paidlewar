@@ -7,6 +7,8 @@ public class Demo_Variable {
 //ertrdhfjmezjgfnrydktdukxmfjsfdxtfycgvjhchgjfhszfdjgxcgj
 		//asvdsjvdbjhdjvjcjsdbsdvsdvhdidsv
 		//hjkvhjsdddjvbjdvjds
+		int abee = 235;
+		System.out.println("abee: "+abee);
 	}
 
 }
