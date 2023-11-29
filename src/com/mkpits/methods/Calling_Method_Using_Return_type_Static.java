@@ -1,9 +1,11 @@
 package com.mkpits.methods;
 
-public class Calling_Method_Using_Return_type {
+public class Calling_Method_Using_Return_type_Static {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// calling static method in static method can be easily called
+		// but calling non static in static method is not possible you have to call by creating object.
 		// calling methods using different ways.
 				// 1. Direct Access
 				System.out.println("------------------------------------------------------------------------------------------");
@@ -17,17 +19,16 @@ public class Calling_Method_Using_Return_type {
 				System.out.println("------------------------------------------------------------------------------------------");
 				System.out.println("calling method by reference of class");
 				System.out.println();
-				Calling_Method_Using_Return_type.getAllData();
+				Calling_Method_Using_Return_type_Static.getAllData();
 				System.out.println("------------------------------------------------------------------------------------------");
 				
 				// 3. objreference.methodName(); 
 				System.out.println("-------------------------------------------------------------------------------------------");
 				System.out.println("calling method by reference of object");
 				System.out.println();
-				Calling_Method_Using_Return_type cMURT = new Calling_Method_Using_Return_type();
+				Calling_Method_Using_Return_type_Static cMURT = new Calling_Method_Using_Return_type_Static();
 				cMURT.getAllData();
 				System.out.println("-------------------------------------------------------------------------------------------");
-				System.out.println("fjkvnksdvnkj");
 			//	System.out.println();		
 	}
 	
@@ -69,13 +70,12 @@ public class Calling_Method_Using_Return_type {
 	
 	public static void getAllData() {
 		// direct calling
-		getFirstName();
-		getLastName();
-		getGender();
-		getMobile();
-		getEmail();
-		getPassword();
-		
+		System.out.println(getFirstName());
+		System.out.println(getLastName());
+		System.out.println(getGender());
+		System.out.println(getMobile());
+		System.out.println(getEmail());
+		System.out.println(getPassword());
 	}
 
 	// declare return type if not use void
