@@ -27,6 +27,7 @@ public class MethodDeclaration {
 		MethodDeclaration mD = new MethodDeclaration();
 		mD.getAllData();
 		System.out.println("-------------------------------------------------------------------------------------------");
+		System.out.println("fjkvnksdvnkj");
 	//	System.out.println();		
 	}
 	public static void getFirstName() {
