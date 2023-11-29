@@ -18,7 +18,7 @@ public class Calling_Method_In_Another_Class {
 		// ---> calling method using object reference 
 		System.out.println("calling method using object reference");
 		// Calling_Method_In_Another_Class CMAC = new Calling_Method_In_Another_Class();
-		System.out.println();
+		System.out.println("nanajnvkknvaknvado");
 		// 
 	}
 	
