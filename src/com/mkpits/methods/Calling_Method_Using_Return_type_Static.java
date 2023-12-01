@@ -6,6 +6,8 @@ public class Calling_Method_Using_Return_type_Static {
 		// TODO Auto-generated method stub
 		// calling static method in static method can be easily called
 		// but calling non static in static method is not possible you have to call by creating object.
+		// Static methods can only be called directly (without using the class name) from within the class they are declared, 
+		// whereas non-static methods can be called from other classes
 		// calling methods using different ways.
 				// 1. Direct Access
 				System.out.println("------------------------------------------------------------------------------------------");
