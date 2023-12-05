@@ -7,4 +7,27 @@ public class Arithmatic_Operators {
 
 	}
 
+	public void getA1lddition() {
+		
+	}
+	
+	public void getSubtraction() {
+		
+	}
+	
+	public void getMultiplication() {
+		
+	}
+	
+	public void getDivision() {
+		
+	}
+	
+	public void getModulus() {
+		
+	}
+	
+	public void getFinalOperatorsResult() {
+		
+	}
 }
