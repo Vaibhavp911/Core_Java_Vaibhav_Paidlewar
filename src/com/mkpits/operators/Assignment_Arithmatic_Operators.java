@@ -1,10 +1,10 @@
 package com.mkpits.operators;
 
-public class Arithmatic_Operators {
+public class Assignment_Arithmatic_Operators {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Arithmatic_Operators oP = new Arithmatic_Operators();
+		Assignment_Arithmatic_Operators oP = new Assignment_Arithmatic_Operators();
 		oP.getA1lddition();
 		oP.getSubtraction();
 		oP.getMultiplication();
@@ -15,7 +15,7 @@ public class Arithmatic_Operators {
 	public void getA1lddition() {
 		int a = 3;
 		int b = 55;
-		a=+b;
+		a=+b; //assignment operator
 		System.out.println("value of 'a' is updated with addition of 'b' : "+a);
 		System.out.println("-----------------------------------------------------------------------------------------------");
 	}
