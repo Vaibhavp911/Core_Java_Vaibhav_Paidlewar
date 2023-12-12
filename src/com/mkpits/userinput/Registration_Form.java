@@ -19,6 +19,7 @@ public class Registration_Form {
 		rFM.getConfirmPassword();
 		// Printing form with user input
 		rFM.getFormDetails();
+		//gch
 	}
 
 }
