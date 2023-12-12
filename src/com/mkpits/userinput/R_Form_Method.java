@@ -37,8 +37,7 @@ public class R_Form_Method {
 	{
 		System.out.print("Enter Gender: ");
 		String gGen = bR.readLine();
-		this.gGender = gGen.charAt(0);
-		
+		this.gGender = gGen.charAt(0);	
 	}
 	public void getMobile() throws IOException
 	{
@@ -82,3 +81,4 @@ public class R_Form_Method {
 		System.out.println("**********************************************************************************");
 	}
 }
+//ddfg
