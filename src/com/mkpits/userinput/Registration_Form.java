@@ -17,7 +17,7 @@ public class Registration_Form {
 		rFM.getEmail();
 		rFM.getPassword();
 		rFM.getConfirmPassword();
-		// Printing form with user input 
+		// Printing form with user input
 		rFM.getFormDetails();
 	}
 
