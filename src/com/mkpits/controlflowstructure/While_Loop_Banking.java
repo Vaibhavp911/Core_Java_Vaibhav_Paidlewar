@@ -11,7 +11,7 @@ public class While_Loop_Banking {
 	double balance;
 	double gWithdraw;
 	double gDeposit;
-	static BufferedReader reader;
+	static BufferedReader reader;	// to call reader in every class thats why to declare it static.
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
