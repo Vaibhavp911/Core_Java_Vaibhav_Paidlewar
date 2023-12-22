@@ -37,5 +37,10 @@ public class Object_To_Object_TypeCasting {
 		int voterId = vaR.voterId;
 		String voterName = vaR.voterName;
 		System.out.println("voterId: "+voterId+", voterName: "+voterName);
+		
+		String aC = new String(vaR.voterName);
+		System.out.println(aC);
+		
+				
 	}
 }
