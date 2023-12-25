@@ -3,6 +3,7 @@ package com.mkpits.inheritance;
 import java.io.IOException;
 
 public class SingleInheritance1 {
+	int intermidiate;
 
 	public static void main(String[] args) throws IOException
 	{
