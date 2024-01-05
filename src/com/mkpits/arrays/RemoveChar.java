@@ -7,13 +7,13 @@ public class RemoveChar {
 		/*String name = "vaibhav paidlewar";
 		char ch[] = new char[name.length()];
 		
-		for (int i = 0; i < ch.length; i++)
+		for (int outerLoop = 0; outerLoop < ch.length; outerLoop++)
 		{
-			for (int j = 0; j < ch.length; j++)
+			for (int innerLoop = 0; innerLoop < ch.length; innerLoop++)
 			{
-				if (name.charAt(i) == name.charAt(j))
+				if (name.charAt(outerLoop) == name.charAt(innerLoop))
 				{
-					name.charAt(j)=RemoveChar;
+					name.charAt(innerLoop)=RemoveChar;
 				}
 				
 			}
@@ -25,14 +25,14 @@ public class RemoveChar {
 		
 		String name[] = {"vaibhav paidlewar"};
 		System.out.println("s");
-		for (int i = 0; i < name.length; i++)
+		for (int outerLoop = 0; outerLoop < name.length; outerLoop++)
 		{
-			for (int j = i+1; j < name.length; j++)
+			for (int innerLoop = outerLoop+1; innerLoop < name.length; innerLoop++)
 			{
-				if (name[i]==name[j])
+				if (name[outerLoop]==name[innerLoop])
 				{
 
-					System.out.println(i);
+					System.out.println(outerLoop);
 				}
 				
 			}

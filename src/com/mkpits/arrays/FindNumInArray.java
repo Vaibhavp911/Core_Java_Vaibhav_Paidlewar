@@ -10,13 +10,13 @@ public class FindNumInArray {
 	{
 		BufferedReader iP = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("Enter the size of array : ");
-		int i = Integer.parseInt(iP.readLine());
-		int array[] = new int[i];
+		int input = Integer.parseInt(iP.readLine());
+		int array[] = new int[input];
 		
-		for (int j = 0; j < array.length; j++)
+		for (int loop = 0; loop < array.length; loop++)
 		{
-			System.out.println("Enter Digit of Index "+j+" : ");
-			array[j]= Integer.parseInt(iP.readLine());
+			System.out.println("Enter Digit of Index "+loop+" : ");
+			array[loop]= Integer.parseInt(iP.readLine());
 		}
 		
 		System.out.println("-------------------------------------");
@@ -24,11 +24,11 @@ public class FindNumInArray {
 		System.out.print("Provide user Input : ");
 		int userNum = Integer.parseInt(iP.readLine());
 		
-		for (int j = 0; j < array.length; j++)
+		for (int loop = 0; loop < array.length; loop++)
 		{
-			if (array[j]==userNum)
+			if (array[loop]==userNum)
 			{
-				System.out.println("User input 'userNum' is in the array at index "+j+" and position "+(j+1));
+				System.out.println("User input 'userNum' is in the array at index "+loop+" and position "+(loop+1));
 			}
 		}
 		

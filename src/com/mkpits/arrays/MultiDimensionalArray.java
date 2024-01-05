@@ -11,22 +11,22 @@ public class MultiDimensionalArray {
 		BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
 		int mD[][] = new int [3][2];
 		System.out.println("Fill the Array: ");
-		for (int i = 0; i < mD.length; i++)
+		for (int outerLoop = 0; outerLoop < mD.length; outerLoop++)
 		{
-			for (int j = 0; j < 2; j++)
+			for (int innerLoop = 0; innerLoop < 2; innerLoop++)
 			{
-				System.out.println("Enter Data for mD ["+i+"]["+j+"]");
-				mD[i][j] = Integer.parseInt(read.readLine());
+				System.out.println("Enter Data for mD ["+outerLoop+"]["+innerLoop+"]");
+				mD[outerLoop][innerLoop] = Integer.parseInt(read.readLine());
 			}
 		}
 		
 		System.out.println("--------------------------------------------");
 		
-		for (int i = 0; i < mD.length; i++)
+		for (int outerLoop = 0; outerLoop < mD.length; outerLoop++)
 		{
-			for (int j = 0; j < 2; j++)
+			for (int innerLoop = 0; innerLoop < 2; innerLoop++)
 			{
-				System.out.println("Data at mD["+i+"]["+j+"] : "+mD[i][j]);
+				System.out.println("Data at mD["+outerLoop+"]["+innerLoop+"] : "+mD[outerLoop][innerLoop]);
 			}
 		}
 		

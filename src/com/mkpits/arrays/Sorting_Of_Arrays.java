@@ -12,9 +12,9 @@ public class Sorting_Of_Arrays {
 		int num[]= {5,325,6,0,-2,22,46};
 		Arrays.sort(num);
 		
-		for (int i : num)
+		for (int loop : num)
 		{
-			System.out.println(i);
+			System.out.println(loop);
 		}
 	}
 	

@@ -18,23 +18,23 @@ public class BubbleSort {
 		int sorTing[] = new int[4];
 		// Datatype arrayname[]=new Datatype[size];
 		
-		for (int i = 0; i < sorTing.length; i++)
+		for (int forInput = 0; forInput < sorTing.length; forInput++)
 		{
-			System.out.println("Enter Data "+i);
-			sorTing[i]= Integer.parseInt(reader.readLine());
+			System.out.println("Enter Data "+forInput);
+			sorTing[forInput]= Integer.parseInt(reader.readLine());
 		}
 		System.out.println("***************************************************************************");
 		// Bubble Sorting
 		/*
-		for (int i = 0; i < sorTing.length; i++)
+		for (int outerLoop = 0; outerLoop < sorTing.length; outerLoop++)
 		{
-			for (int j = i+1 ; j < sorTing.length; j++)
+			for (int innerLoop = outerLoop+1 ; innerLoop < sorTing.length; innerLoop++)
 			{
-				if (sorTing[i]>sorTing[j])
+				if (sorTing[outerLoop]>sorTing[innerLoop])
 				{
-					int temp = sorTing[i];
-					sorTing[i] = sorTing[j];
-					sorTing[j] = temp;
+					int temp = sorTing[outerLoop];
+					sorTing[outerLoop] = sorTing[innerLoop];
+					sorTing[innerLoop] = temp;
 				}
 			}
 		}
@@ -45,30 +45,30 @@ public class BubbleSort {
 		
 		
 		System.out.println("Data after Sorting ascending order ----> ");
-		for (int i = 0; i < sorTing.length; i++) 
+		for (int toPrint = 0; toPrint < sorTing.length; toPrint++) 
 		{
-			System.out.println("Data at "+i+" is "+sorTing[i]);
+			System.out.println("Data at "+toPrint+" is "+sorTing[toPrint]);
 		}
 		
 		
-		for (int i = 0; i < sorTing.length; i++)
+		for (int outerLoop = 0; outerLoop < sorTing.length; outerLoop++)
 		{
-			for (int j = i+1 ; j < sorTing.length; j++)
+			for (int innerLoop = outerLoop+1 ; innerLoop < sorTing.length; innerLoop++)
 			{
-				if (sorTing[i]<sorTing[j])
+				if (sorTing[outerLoop]<sorTing[innerLoop])
 				{
-					int temp = sorTing[i];
-					sorTing[i] = sorTing[j];
-					sorTing[j] = temp;
+					int temp = sorTing[outerLoop];
+					sorTing[outerLoop] = sorTing[innerLoop];
+					sorTing[innerLoop] = temp;
 				}
 			}
 		}
 		
 		System.out.println("***************************************************************************");
 		System.out.println("Data after Sorting descending order ----> ");
-		for (int i = 0; i < sorTing.length; i++) 
+		for (int toPrint = 0; toPrint < sorTing.length; toPrint++) 
 		{
-			System.out.println("Data at "+i+" is "+sorTing[i]);
+			System.out.println("Data at "+toPrint+" is "+sorTing[toPrint]);
 		}
 	}
 
