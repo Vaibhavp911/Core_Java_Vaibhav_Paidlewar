@@ -8,7 +8,7 @@ public class Object_To_Object_TypeCasting {
 
 		// Java automatically generates a default constructor for you.
 		// 
-		Object_To_Object_TypeCasting oTo1 = new Object_To_Object_TypeCasting();
+		//Object_To_Object_TypeCasting oTo1 = new Object_To_Object_TypeCasting();
 		Object_To_Object_TypeCasting oTo2 = new Object_To_Object_TypeCasting(3592824, "Vaibhav Paidlewar");
 		// argument passed in above instance
 		Object_To_Object_TypeCasting oTo3 = new Object_To_Object_TypeCasting(oTo2);
