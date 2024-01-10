@@ -24,7 +24,7 @@ public class PrintingTableHorizontally
 		System.out.println("---------------");
 		
 		// System.out.println("Entered in Loop");
-		
+		// using for loop to add multiplication in each position.
 		for (int fBlock = 1; fBlock < Table.length; fBlock++)
 		{
 			for (int sBlock = 1; sBlock < Table.length; sBlock++)
@@ -38,6 +38,12 @@ public class PrintingTableHorizontally
 		{
 			for (int sBlock = 1; sBlock < Table.length; sBlock++)
 			{
+				/*
+				 * A convenience method to write a formatted string to this output stream,
+				 * using the specified format string and arguments.
+				 * An invocation of this method of the form System.out.printf(format, args);,
+				 * behaves in exactly the same way as the invocation
+				 */
 				System.out.printf("  %2d  |",Table[fBlock][sBlock]);
 			}
 			System.out.println();
