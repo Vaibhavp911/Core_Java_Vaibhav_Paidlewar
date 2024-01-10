@@ -16,7 +16,7 @@ public class While_Loop_Banking {
 		// TODO Auto-generated method stub
 		
 		While_Loop_Banking loop = new While_Loop_Banking();
-		System.out.println("wel-Come");
+		System.out.println("\t\twel-Come");
 		System.out.println("LAKSHMI CHIT FUND");
 		
 		reader = new BufferedReader(new InputStreamReader(System.in));
