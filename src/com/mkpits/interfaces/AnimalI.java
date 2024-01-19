@@ -8,7 +8,7 @@ public interface AnimalI
 	/*
 	 * interface is a completely "abstract class" 
 	 * To access the interface methods, the interface must be "implemented"
-	 * (kinda like inherited) by another class with the implements keyword.
+	 * (kind a like inherited) by another class with the implements keyword.
 	 * Like abstract classes, interfaces cannot be used to create objects
 	 * Interface methods do not have a body
 	 * Interface methods are by default abstract and public

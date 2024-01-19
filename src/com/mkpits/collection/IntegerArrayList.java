@@ -1,4 +1,4 @@
-package com.mkpits.collections;
+package com.mkpits.collection;
 
 import java.util.ArrayList;
 
