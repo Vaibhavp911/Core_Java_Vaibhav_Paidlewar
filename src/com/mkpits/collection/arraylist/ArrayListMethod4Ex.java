@@ -1,4 +1,4 @@
-package com.mkpits.collection;
+package com.mkpits.collection.arraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,7 +24,8 @@ public class ArrayListMethod4Ex {
 		 * Returns an array containing all of the elements in this list in proper sequence (from first to last element).
 		 * The returned array will be "safe" in that no references to it are maintained by this list. (In other words, this method must allocate a new array). The caller is thus free to modify the returned array.
 		 */
-		System.out.println(listA.toArray());
+		System.out.println(listA.toArray()); // it will print random value 
+		// it require object to store and print the value.
         System.out.println(Arrays.toString(listA.toArray()));
         
 		
