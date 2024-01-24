@@ -1,4 +1,4 @@
-package com.mkpits.linkedlist;
+package com.mkpits.collection.linkedlist;
 
 public class WhatIsLinkedList {
 

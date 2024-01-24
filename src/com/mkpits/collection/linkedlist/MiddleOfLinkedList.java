@@ -1,4 +1,4 @@
-package com.mkpits.linkedlist;
+package com.mkpits.collection.linkedlist;
 
 import java.io.BufferedReader;
 import java.io.IOException;

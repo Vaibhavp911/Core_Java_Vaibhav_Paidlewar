@@ -1,4 +1,4 @@
-package com.mkpits.linkedlist;
+package com.mkpits.collection.linkedlist;
 
 import java.util.Iterator;
 import java.util.LinkedList;

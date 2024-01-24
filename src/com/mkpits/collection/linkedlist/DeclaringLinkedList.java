@@ -1,4 +1,4 @@
-package com.mkpits.linkedlist;
+package com.mkpits.collection.linkedlist;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

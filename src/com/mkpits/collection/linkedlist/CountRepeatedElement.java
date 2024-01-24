@@ -1,6 +1,7 @@
-package com.mkpits.linkedlist;
+package com.mkpits.collection.linkedlist;
 
 import java.util.LinkedList;
+import java.util.Objects;
 
 public class CountRepeatedElement {
 
@@ -25,7 +26,7 @@ public class CountRepeatedElement {
 			
 			for (int j = 8; j > 0; j--) 
 			{
-				if (listA.get(i) == listA.get(j))
+				if (Objects.equals(listA.get(i), listA.get(j)))
 				{
 					System.out.println(listA.get(j));
 					counter++;
