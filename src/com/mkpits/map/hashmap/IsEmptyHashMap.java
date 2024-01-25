@@ -28,6 +28,7 @@ Returns: This method returns True if the map does not contain any key-value mapp
 		
 		System.out.println("Map{} is -->"+hMap2);
 		System.out.println("HashMap: 'hMap2' is Empty or Not? "+hMap2.isEmpty());
+		
 	}
 
 }
