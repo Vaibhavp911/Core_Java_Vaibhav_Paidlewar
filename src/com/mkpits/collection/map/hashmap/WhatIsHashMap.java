@@ -1,4 +1,4 @@
-package com.mkpits.map.hashmap;
+package com.mkpits.collection.map.hashmap;
 
 public class WhatIsHashMap {
 
