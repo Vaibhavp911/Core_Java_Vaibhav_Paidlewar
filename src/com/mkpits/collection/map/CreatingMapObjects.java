@@ -1,4 +1,4 @@
-package com.mkpits.map;
+package com.mkpits.collection.map;
 
 import java.util.EnumMap;
 import java.util.HashMap;

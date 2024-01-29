@@ -1,4 +1,4 @@
-package com.mkpits.collection.examples;
+package com.mkpits.collection.examples.map.hashmap;
 
 import java.util.HashMap;
 import java.util.Scanner;
